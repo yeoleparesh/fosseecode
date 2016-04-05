@@ -27,7 +27,7 @@ Author - PARESH YEOLE - VNIT ,Nagpur
 
 Examples:-  (1)h=(s+2)/(s^3+s^2+1) : getpeakgain(h) : ans=3.51  || getgaincrossover(h,0.48) : ans = [1.72;1.73]
              
-              (2)p=(1+s)/(4-5*s+s^3) : getpeakgain(p) : ans=0.25  || getgaincrossover(p,1) :empty matrix ans=[]  ||                                                             getgaincrossover(p,0.16) : ans = [1.4426]
+              (2)p=(1+s)/(4-5*s+s^3) : getpeakgain(p) : ans=0.25  || getgaincrossover(p,1) :empty matrix ans=[]  ||                                          getgaincrossover(p,0.16) : ans = [1.38;1.39;1.41;1.44;1.5]
             
             Above functions can also be used for MIMO systems by correctly supplying transfer function as the input to the functions. 
 
