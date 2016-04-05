@@ -20,6 +20,6 @@ Author - PARESH YEOLE - VNIT ,Nagpur
  
  Steps to execute --
        1) execute the function file in console- exec gpg.sci  (or) exec gco.sci
-       2)define transfer function say sys in s domain [s = poly(0,'s') ; p=(s+1)/(s^3-5*s+4) ; p=syslin('c',p)]
+       2)define transfer function say p in s domain [s = poly(0,'s') ; p=(s+1)/(s^3-5*s+4) ; p=syslin('c',p)]
        3)call the function getpeakgain(p)   (or)  getgaincrossover(p,1.5) (say)
        4) result will be displayed. if no crossover freq is present then empty matrix will be displayed in case of later function.
