@@ -27,3 +27,7 @@ Author - PARESH YEOLE - VNIT ,Nagpur
 
 Examples:- 1} getpeakgain:---- (1)h=(s+2)/(s^3+s^2+1) : getpeakgain(h) : ans=3.51
            2} getpeakgain:----- (1)
+
+
+
+PS:-                                                                                                                                      In the second function of getgaincrossover, i have limited the accuracy upto 2 digits after decimal point.Which means when             finding the freq at which the system is crossing gain of say 2.38 then my function will display all the values of freq at which        the gain is ranging from 2.376-2.384 .Which is actually a discrepency. We can increase the accuracy by decreasing step size or          by taking many more digits after decimal point or iteration methods by which MATLAB finds the solution.   
