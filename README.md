@@ -7,7 +7,7 @@ iitbintern
 Author - PARESH YEOLE - VNIT ,Nagpur
 
 
- So i have applied for a internship in control systems in scilab under the fossee project
+ So i have applied for an internship in control systems in scilab under the fossee project
  So i have written two functions namely getpeakgain and getgaincrossover in scilab
  
  
@@ -23,3 +23,7 @@ Author - PARESH YEOLE - VNIT ,Nagpur
        2)define transfer function say p in s domain [s = poly(0,'s') ; p=(s+1)/(s^3-5*s+4) ; p=syslin('c',p)]
        3)call the function getpeakgain(p)   (or)  getgaincrossover(p,1.5) (say)
        4) result will be displayed. if no crossover freq is present then empty matrix will be displayed in case of later function.
+
+
+Examples:- 1} getpeakgain:---- (1)h=(s+2)/(s^3+s^2+1) : getpeakgain(h) : ans=3.51
+           2} getpeakgain:----- (1)
